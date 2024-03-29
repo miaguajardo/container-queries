@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fill Space</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="buttonActions.js"></script>
   </head>
   <body>
     <div class="card-container">
@@ -26,5 +27,16 @@
       </div>
       </div>
     </div>
-  </body>
+
+  <div class="button-container">
+    <button onclick="changeContainerWidth('Desktop', 0)">Desktop Small</button>
+    <button onclick="changeContainerWidth('Desktop', 1)">Desktop Medium</button>
+    <button onclick="changeContainerWidth('Tablet', 0)">Tablet Medium</button>
+    <button onclick="changeContainerWidth('Tablet', 1)">Tablet Large</button>
+    <button onclick="changeContainerWidth('Mobile', 0)">Mobile Small</button>
+    <button onclick="changeContainerWidth('Mobile', 1)">Mobile Large</button>
+    <button onclick="changeContainerWidth('Right Rail', 0)">Right Rail</button>
+  </div>
+
+</body>
 </html>

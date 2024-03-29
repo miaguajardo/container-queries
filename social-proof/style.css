@@ -4,6 +4,8 @@
 }
 
 .card {
+  /* container-type: inline-size;
+  container-name: cardContainer; */
   display: flex;
   align-items: stretch;
   border: 1px solid #01adb9;
@@ -49,6 +51,21 @@
 p {
   text-align: center;
   margin: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 5px;
+  background: #01adb9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 @container cardContainer (max-width: 732px) {
